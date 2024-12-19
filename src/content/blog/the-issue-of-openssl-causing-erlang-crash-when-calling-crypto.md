@@ -3,9 +3,6 @@ author: Kelefat
 pubDatetime: 2024-12-18T23:05:00Z
 modDatetime: 2024-12-18T23:05:00Z
 title: OpenSSL导致Erlang调用crypto崩溃问题
-slug: the-issue-of-openssl-causing-erlang-crash-when-calling-crypto
-featured: false
-draft: false
 tags:
   - erlang
 description:
