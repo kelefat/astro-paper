@@ -4,19 +4,19 @@ pubDatetime: 2024-12-18T23:05:00Z
 modDatetime: 2024-12-18T23:05:00Z
 title: OpenSSL导致Erlang调用crypto崩溃问题
 tags:
-  - erlang
+  - Erlang
 description:
   OpenSSL bug导致Erlang在windows下调用crypto:hash(sha, <<1>>)直接崩溃
 ---
 
 ## 问题：
-在windows 10下， Erlang otp 22, 项目在启动过程中闪退，没有任何crash日志。
+在windows 10下， Erlang OTP 22, 项目在启动过程中闪退，没有任何crash日志。
 
 ## 过程：
 由于没有任何crash日志，就在启动过程中打日志，最终定位问题在crypto模块的hash方法调用上。
 打开werl，直接执行crypto:hash(sha, <<1>>). 马上闪退。
 
-查找相关资料，最终发现是由于OpenSSL的bug导致。具体原因参考：https://www.intel.com/content/www/us/en/developer/articles/troubleshooting/openssl-sha-crash-bug-requires-application-update.html
+查找相关资料，最终发现是由于OpenSSL的bug导致。具体原因参考：[https://www.intel.com/content/www/us/en/developer/articles/troubleshooting/openssl-sha-crash-bug-requires-application-update.html]
 
 >OpenSSL* 1.0.2 beta (Jun 2014) to OpenSSL 1.0.2k (Jan 2017) contain bugs that either cause a crash or bad SHA (Secure Hash Algorithm) values on processors with the SHA extensions, such as the recently released 10th Generation processor. Both bugs were fixed years ago; however, any application that uses the old version directly, or as one of its dependencies, will fail. 
 
