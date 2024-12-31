@@ -143,7 +143,8 @@ Eterm erts_trapping_length_1(Process* p, Eterm* args)
 
 ## 总结
 length的实现就是遍历整个list，时间复杂度为：O(n)，n为列表元素数量，所以使用的时候注意列表数量；
+
 另外从源码中可以看出length函数的实现对进程reductions的消耗，从而影响进程的调度。
 
-## 引申思考
+## 思考
 length的实现为什么要遍历整个list？因为erlang的列表实现是基于链表。
