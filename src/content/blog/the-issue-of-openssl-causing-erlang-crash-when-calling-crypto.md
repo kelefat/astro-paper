@@ -1,7 +1,7 @@
 ---
 author: Kelefat
-pubDatetime: 2024-12-18T23:05:00Z
-modDatetime: 2024-12-18T23:05:00Z
+pubDatetime: 2024-12-18
+modDatetime: 2024-12-18
 title: OpenSSL导致Erlang调用crypto崩溃问题
 tags:
   - Erlang

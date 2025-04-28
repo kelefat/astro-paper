@@ -1,7 +1,7 @@
 ---
 author: Kelefat
-pubDatetime: 2025-03-24T22:40:00Z
-modDatetime: 2025-03-24T22:40:00Z
+pubDatetime: 2025-03-24
+modDatetime: 2025-03-24
 title: 如何使用 GDB 调试 Erlang
 tags:
   - Erlang
@@ -9,7 +9,7 @@ tags:
   - Erlang debug
   - etp-commands 
 description:
-  如何使用 GDB 调试 Erlang：从编译到 etp-commands
+  本文详细介绍了如何使用GDB调试Erlang，包括从源码编译、开启debug模式、设置断点、单步执行以及利用etp-commands辅助调试的方法和实践。
 ---
 
 在阅读Erlang源码的过程中，如果能直接断点调试，将有助于进一步了解Erlang的运行机制。

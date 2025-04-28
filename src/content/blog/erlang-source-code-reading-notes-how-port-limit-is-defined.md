@@ -1,7 +1,7 @@
 ---
 author: Kelefat
-pubDatetime: 2025-03-26T22:40:00Z
-modDatetime: 2025-03-26T22:40:00Z
+pubDatetime: 2025-03-26
+modDatetime: 2025-03-26
 title: Erlang 源码阅读笔记：端口数（port_limit）设置
 tags:
   - Erlang

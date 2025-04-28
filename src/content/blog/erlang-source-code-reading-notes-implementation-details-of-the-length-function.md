@@ -1,7 +1,7 @@
 ---
 author: Kelefat
-pubDatetime: 2024-12-31T16:40:00Z
-modDatetime: 2024-12-31T16:40:00Z
+pubDatetime: 2025-01-02
+modDatetime: 2025-01-02
 title: Erlang 源码阅读笔记：length 函数的实现细节
 tags:
   - Erlang

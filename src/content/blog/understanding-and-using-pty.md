@@ -1,7 +1,7 @@
 ---
 author: Kelefat
-pubDatetime: 2025-04-03T22:40:00Z
-modDatetime: 2025-04-03T22:40:00Z
+pubDatetime: 2025-04-03
+modDatetime: 2025-04-03
 title: PTY介绍和应用实践
 tags:
   - Erlang
@@ -9,7 +9,7 @@ tags:
   - Erlang debug
   - etp-commands
 description:
-  PTY介绍和应用实践
+  本文介绍了PTY的概念及作用，分析了run_erl、screen等工具通过PTY实现终端模拟的方法，并用Python示范如何结合PTY开发简易Erlang远程交互服务器。
 ---
 
 从run_erl的实现原理中，我们看到了一个概念pty。那么pty是什么呢？看看AI的回答：
