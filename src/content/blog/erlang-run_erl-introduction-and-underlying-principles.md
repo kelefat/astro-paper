@@ -1,7 +1,7 @@
 ---
 author: Kelefat
-pubDatetime: 2025-03-28
-modDatetime: 2024-03-28
+pubDatetime: 2025-04-02
+modDatetime: 2025-04-02
 title: Erlang 工具run_erl使用介绍和原理
 tags:
   - Erlang
